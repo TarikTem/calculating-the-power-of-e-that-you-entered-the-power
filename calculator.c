@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     {
         int i = 0;
         int power_of_e;
-        float result = 0;
+        // float result = 0;
         float fact = 1, exp_number;
         float division;
         printf("Enter the power of e:");
@@ -35,12 +35,12 @@ int main(int argc, char const *argv[])
             }
 
             division = exp_number / fact;
-            result += division;
+            // result += division;
             i++;
             printf("%d. result :%.2f",i+1,division);
         }
 
-        printf("e ^ %d = %.2f\n", power_of_e, result);
+        // printf("e ^ %d = %.2f\n", power_of_e, result);
     }
 
     // End of the project 4
