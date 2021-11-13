@@ -37,6 +37,7 @@ int main(int argc, char const *argv[])
             division = exp_number / fact;
             result += division;
             i++;
+            printf("%d. result :%.2f",i+1,division);
         }
 
         printf("e ^ %d = %.2f\n", power_of_e, result);
